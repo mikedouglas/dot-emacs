@@ -10,3 +10,6 @@
 [submodule "vendor/unipoint"]
 	path = vendor/unipoint
 	url = git://github.com/apgwoz/unipoint.git
+[submodule "vendor/smex"]
+	path = vendor/smex
+	url = git://github.com/nonsequitur/smex.git
