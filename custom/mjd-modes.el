@@ -22,3 +22,6 @@
 ;; activate smex
 (require 'smex)
 (smex-initialize)
+
+;; unipoint mode
+(require 'unipoint)
