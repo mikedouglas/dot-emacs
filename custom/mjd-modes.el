@@ -25,3 +25,5 @@
 
 ;; unipoint mode
 (require 'unipoint)
+(add-hook 'text-mode-hook 'unipoint-mode)
+(add-hook 'org-mode-hook 'unipoint-mode)
