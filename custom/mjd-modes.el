@@ -1,5 +1,5 @@
 ;; make text-mode the default
-(setq default-major-mode 'text-mode)
+(setq default-major-mode 'org-mode)
 (add-hook 'text-mode-hook 'longlines-mode)
 (add-hook 'text-mode-hook 'turn-on-visual-line-mode)
 
