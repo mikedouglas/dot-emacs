@@ -24,5 +24,3 @@
                    " words.")))
 
 (defalias 'wc 'wc-buffer)
-
-(provide 'wc)
