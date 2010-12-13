@@ -3,7 +3,7 @@
 (setq initial-scratch-message nil)
 
 ;; disable training wheels
-(fset 'yes-or-no-p 'y-or-no-p)
+(defalias 'yes-or-no-p 'y-or-n-p)
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode 0)
   (scroll-bar-mode -1))
